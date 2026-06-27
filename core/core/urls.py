@@ -23,6 +23,9 @@ from .ApiDoc import apiDocUrlpatterns
 
 urlpatterns = [
     path('api/' , include('Categories.urls')),
-    path('api/' , include('Customer.urls'))
+    path('api/' , include('Customer.urls')),
+    path('api/' , include('Employees.urls')),
+    path('api/' , include('Territories.urls')),
+    
     # path('admin/', admin.site.urls),
 ] + apiDocUrlpatterns
