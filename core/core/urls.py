@@ -26,6 +26,13 @@ urlpatterns = [
     path('api/' , include('Customer.urls')),
     path('api/' , include('Employees.urls')),
     path('api/' , include('Territories.urls')),
+    path('api/' , include('Shippers.urls')),
+    path('api/' , include('Products.urls')),
+    path('api/' , include('Orders.urls')),
+    path('api/' , include('Suppliers.urls')),
+    path('api/' , include('UsStates.urls')),
+    
+    
     
     # path('admin/', admin.site.urls),
 ] + apiDocUrlpatterns

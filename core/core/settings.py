@@ -44,6 +44,11 @@ INSTALLED_APPS = [
     "Customer",
     "Territories",
     "Employees",
+    "Shippers",
+    "Products",
+    "Orders",
+    "Suppliers",
+    "UsStates"
 ]
 
 MIDDLEWARE = [
